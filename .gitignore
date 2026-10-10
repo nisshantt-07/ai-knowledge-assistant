@@ -1,0 +1,35 @@
+# Java / Spring Boot
+target/
+*.class
+*.jar
+.idea/
+*.iml
+.vscode/
+
+# Secrets (kabhi push mat karna)
+.env
+*.env
+application-local.properties
+
+# Python
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# FAISS index, metadata, uploaded documents (private data)
+*.faiss
+*.index
+*.bin
+*.pkl
+uploaded-documents/
+uploads/
+
+# Node / React
+node_modules/
+dist/
+.vite/
+
+# OS
+Thumbs.db
